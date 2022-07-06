@@ -1,0 +1,48 @@
+.text-center {
+  margin: auto;
+}
+
+.container-one {
+  background: url(../images/header-background.jpg) no-repeat scroll center bottom;
+  background-size: cover;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.container-one .apple-watch {
+  width: 200px;
+  margin: auto;
+}
+.container-one h1 {
+  text-transform: uppercase;
+  font: 600 48px/29px "Poppins", sans-serif;
+  padding-top: 5px;
+  margin: 0 0 25px;
+}
+.container-one p {
+  max-width: 780px;
+  margin: 0 auto 40px;
+  font: 300 27px/41px "Poppins", sans-serif;
+  letter-spacing: -0.2px;
+}
+
+.container-two {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.container-two .apple-watch {
+  width: 200px;
+  margin: auto;
+}
+.container-two h2 {
+  text-transform: uppercase;
+  font: 600 48px/29px "Poppins", sans-serif;
+  padding-top: 5px;
+  margin: 0 0 25px;
+}
+.container-two p {
+  max-width: 710px;
+  margin: 0 auto 20px;
+  font: 300 20px/32px "Poppins", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
