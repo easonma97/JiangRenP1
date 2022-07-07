@@ -1,5 +1,6 @@
 .text-center {
     margin: auto;
+    font: "Poppins",sans-serif;
 }
 .container-one {
     background: url(../images/header-background.jpg) no-repeat scroll center bottom;
@@ -28,7 +29,7 @@
     margin-right: 80px;
     .apple-watch{
         width: 200px;
-        margin: auto;
+        margin: auto; 
     }
     h2 {
         text-transform: uppercase;
@@ -43,3 +44,105 @@
     }
 }
 
+.apple-watch-note-feature {
+    position:relative;
+    padding-top: 35px;
+    .apple-watch{
+        width: 200px;
+        margin: auto; 
+    }
+}
+
+.text-align {
+    text-align: center;
+}
+
+.feature-note {
+    display: inline-block;
+    height: 115px;
+    position: absolute;
+    .indicator {
+        margin-top: 67px;
+        width: 192px;
+        .plus-icon {
+            height: 49px;
+            width: 49px;
+            border-radius: 100%;
+            padding: 8px;
+            position: relative;
+            // .plus {
+            //     float: left;
+            // }
+        }
+    }
+}
+
+
+.feature-note.right.top {
+    top: 10px;
+    right: 450px;
+    .plus {
+        float: left;
+    }
+}
+
+.feature-note.left.top {
+    top: 115px;
+    left: 400px;
+    .plus {
+        float: right;
+    }
+}
+// .feature-note-left {
+//     //left: 250px;
+//     display: inline-block;
+//     //top: 100px;
+//     height: 115px;
+//     position: absolute;
+//     .indicator {
+//         //margin-top: 67px;
+//         //width: 192px;
+//         .plus-icon {
+//             .plus {
+//                 float: right;
+//             }
+//         }
+//     }
+// }
+
+.container-three {
+    margin-left: 80px;
+    margin-right: 80px;
+    h2 {
+        text-transform: uppercase;
+        font: 600 48px/29px "Poppins",sans-serif;
+        padding-top: 5px;
+        margin: 0 0 25px;
+    }
+    p {
+        max-width: 710px;
+        margin: 0 auto 20px;
+        font: 300 20px/32px "Poppins",sans-serif;
+    }
+    .process-icon {
+        line-height: 106px;
+    }
+    .work-process {
+        text-align: center;
+    }
+}
+
+.back-to-top {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    opacity: .3;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}

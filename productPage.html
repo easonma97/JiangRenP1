@@ -7,10 +7,11 @@
     <title>ZWX Product Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="css/anime.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container-one bg-secondary bg-opacity-10">
+    <div class="container-one bg-secondary bg-opacity-10" id="header">
     <header class="d-flex justify-content-end py-3 bg-white">
         <h2 class="me-auto">ZWX Cooperation</h2>
         <ul class="nav nav-pills">
@@ -34,9 +35,64 @@
         <div class="d-flex flex-column">
         <h2 class="text-center">The product</h2>
         <p class="text-center">Introduce the product here. A small description about what it is and how it helps the user. You can also add some photos below.</p>
-        <img src="images/apple-watch-2.png" class="apple-watch" alt="apple-watch-2">
         </div>
-        
+        <div class="apple-watch-note-feature text-align">
+            <img src="images/apple-watch-2.png" class="apple-watch" alt="apple-watch-2">
+            <div class="feature-note right top fadeInRight">
+                <div class="indicator">
+                    <div class="plus-icon">
+                        <button class="plus" onclick="ShowAndHide('feature-name')">+</button>
+                    </div>
+                </div>
+                <div id="feature-name" style="display: none;">
+                    metalic strap
+                </div>
+            </div>
+            <div class="feature-note left top fadeInRight">
+                <div class="indicator">
+                    <div class="plus-icon">
+                        <button class="plus" onclick="ShowAndHide('feature-name-left')">+</button>
+                    </div>
+                    <div id="feature-name-left" style="display: none;">
+                        diamond screen
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <br>
+    <section class="container-three" id="features">
+        <div class="d-flex flex-column">
+            <h2 class="text-center">HOW IT WORKS</h2>
+            <p class="text-center">Everybody loves tech gadgets, But our's is different. Here is how it works. Its should be simple and intuitive.</p>
+        </div>
+        <div class="row">
+        <div class="col-sm-4 work-process">
+            <div class="process-icon">
+                <img src="./images/desktop.png" alt="desktop">
+                <h3 class="text-center">Connect Device</h3>
+                <p class="text-center">Introduce the product here. A small description about what it is and how it helps the user. You can also add some photos below.</p>
+            </div>
+        </div>
+        <div class="col-sm-4 work-process">
+            <div class="process-icon">
+                <img src="./images/desktop.png" alt="desktop">
+                <h3 class="text-center">Connect Device</h3>
+                <p class="text-center">Introduce the product here. A small description about what it is and how it helps the user. You can also add some photos below.</p>
+            </div>
+        </div>
+        <div class="col-sm-4 work-process">
+            <div class="process-icon">
+                <img src="./images/desktop.png" alt="desktop">
+                <h3 class="text-center">Connect Device</h3>
+                <p class="text-center">Introduce the product here. A small description about what it is and how it helps the user. You can also add some photos below.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <a href="#header" class="back-to-top" style="display: block;">
+        <img src="./images/back_to_top.png" alt="back to top">
+    </a>
+    <script src="./js/productPage.js"></script>
 </body>
 </html>
