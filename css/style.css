@@ -16,8 +16,9 @@
 .container-one h1 {
   text-transform: uppercase;
   font: 600 48px/29px "Poppins", sans-serif;
-  padding-top: 5px;
+  padding-top: 10px;
   margin: 0 0 25px;
+  line-height: 50px;
 }
 .container-one p {
   max-width: 780px;
@@ -39,6 +40,7 @@
   font: 600 48px/29px "Poppins", sans-serif;
   padding-top: 5px;
   margin: 0 0 25px;
+  line-height: 50px;
 }
 .container-two p {
   max-width: 710px;
@@ -135,12 +137,14 @@
 .container-three {
   margin-left: 80px;
   margin-right: 80px;
+  background: #f8fbfd;
 }
 .container-three h2 {
   text-transform: uppercase;
   font: 600 48px/29px "Poppins", sans-serif;
   padding-top: 5px;
   margin: 0 0 25px;
+  line-height: 50px;
 }
 .container-three p {
   max-width: 710px;
@@ -152,6 +156,26 @@
 }
 .container-three .work-process {
   text-align: center;
+}
+
+.container-four {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.container-four h2 {
+  text-transform: uppercase;
+  font: 600 48px/29px "Poppins", sans-serif;
+  padding-top: 5px;
+  margin: 0 0 25px;
+  line-height: 50px;
+}
+.container-four p {
+  max-width: 710px;
+  margin: 0 auto 20px;
+  font: 300 20px/32px "Poppins", sans-serif;
+}
+.container-four .media .media-left, .container-four .media .media-body {
+  display: table-cell;
 }
 
 .back-to-top {
@@ -167,6 +191,20 @@
 header {
   position: sticky;
   top: 0;
+}
+
+.section-header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section-header:after {
+  content: "";
+  width: 82px;
+  height: 6px;
+  display: block;
+  margin: 0 auto;
+  background: #eee;
 }
 
 /*# sourceMappingURL=style.css.map */

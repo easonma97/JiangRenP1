@@ -1,6 +1,9 @@
 .text-center {
     margin: auto;
     font: "Poppins",sans-serif;
+//     line-height: 36px;
+//     padding: 18px 20px 18px 20px;
+// }
 }
 
 .container-one {
@@ -15,8 +18,9 @@
     h1 {
         text-transform: uppercase;
         font: 600 48px/29px "Poppins",sans-serif;
-        padding-top: 5px;
+        padding-top: 10px;
         margin: 0 0 25px;
+        line-height: 50px;
     }
     p {
         max-width: 780px;
@@ -37,6 +41,7 @@
         font: 600 48px/29px "Poppins",sans-serif;
         padding-top: 5px;
         margin: 0 0 25px;
+        line-height: 50px;
     }
     p {
         max-width: 710px;
@@ -142,13 +147,16 @@
     }
 }
 .container-three {
+    
     margin-left: 80px;
     margin-right: 80px;
+    background: #f8fbfd;
     h2 {
         text-transform: uppercase;
         font: 600 48px/29px "Poppins",sans-serif;
         padding-top: 5px;
         margin: 0 0 25px;
+        line-height: 50px;
     }
     p {
         max-width: 710px;
@@ -160,6 +168,28 @@
     }
     .work-process {
         text-align: center;
+    }
+}
+
+.container-four {
+    margin-left: 80px;
+    margin-right: 80px;
+    h2 {
+        text-transform: uppercase;
+        font: 600 48px/29px "Poppins",sans-serif;
+        padding-top: 5px;
+        margin: 0 0 25px;
+        line-height: 50px;
+    }
+    p {
+        max-width: 710px;
+        margin: 0 auto 20px;
+        font: 300 20px/32px "Poppins",sans-serif;
+    }
+    .media {
+        .media-left, .media-body {
+            display: table-cell;
+        }
     }
 }
 
@@ -176,4 +206,18 @@
 header {
     position: sticky;
     top: 0;
+}
+
+.section-header {
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.section-header:after {
+    content: '';
+    width: 82px;
+    height: 6px;
+    display: block;
+    margin: 0 auto;
+    background: #eee;
 }
