@@ -3,6 +3,11 @@
   font: "Poppins", sans-serif;
 }
 
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
 .container-one {
   background: url(../images/header-background.jpg) no-repeat scroll center bottom;
   background-size: cover;
@@ -109,6 +114,11 @@
   float: right;
 }
 
+@media (max-width: 2000px) {
+  .feature-note.left.top {
+    left: 800px;
+  }
+}
 @media (max-width: 1600px) {
   .feature-note.left.top {
     top: 115px;
@@ -176,6 +186,7 @@
 }
 .container-four .media .media-left, .container-four .media .media-body {
   display: table-cell;
+  padding: 5px;
 }
 
 .back-to-top {
